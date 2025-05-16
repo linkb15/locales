@@ -27,7 +27,7 @@ export default removeUndefinedLocaleResources({
   'compose.send-comment-tooltip': 'Kirim komentar',
 
   /** The inspector text when error copying link */
-  'copy-link-error-message': 'Tidak dapat menyalin tautan ke papan klip',
+  'copy-link-error-message': 'Tidak dapat menyalin tautan',
 
   /** The delete dialog body for a comment */
   'delete-comment.body': 'Setelah dihapus, komentar tidak dapat dipulihkan.',
@@ -43,9 +43,9 @@ export default removeUndefinedLocaleResources({
   'delete-thread.body':
     'Komentar ini dan balasannya akan dihapus, dan setelah dihapus tidak dapat dipulihkan.',
   /** The delete dialog conform button text for a thread */
-  'delete-thread.confirm': 'Hapus utas',
+  'delete-thread.confirm': 'Hapus thread',
   /** The delete dialog title for a thread */
-  'delete-thread.title': 'Hapus utas komentar ini?',
+  'delete-thread.title': 'Hapus thread komentar ini?',
 
   /** The button text for confirming discard */
   'discard.button-confirm': 'Buang',
@@ -55,7 +55,7 @@ export default removeUndefinedLocaleResources({
   'discard.text': 'Apakah Anda ingin membuang komentar?',
 
   /** Sharing feedback on the comments feature: The link title */
-  'feature-feedback.link': 'Bagikan umpan balik Anda',
+  'feature-feedback.link': 'Bagikan masukan Anda',
   /** Sharing feedback on the comments feature: The form title  */
   'feature-feedback.title': 'Bantu meningkatkan ',
 
@@ -77,13 +77,13 @@ export default removeUndefinedLocaleResources({
   'inline-add-comment-button.title': 'Tambahkan komentar',
 
   /** Aria label for the breadcrumb button showing the field path. `{{field}}` is the last (most specific) field. */
-  'list-item.breadcrumb-button-go-to-field-aria-label': 'Pergi ke bidang {{field}}',
+  'list-item.breadcrumb-button-go-to-field-aria-label': 'Pergi ke field {{field}}',
   /** The button tooltip content for the add reaction button */
-  'list-item.context-menu-add-reaction': 'Tambahkan reaksi',
+  'list-item.context-menu-add-reaction': 'Tambahkan reaction',
   /** The button tooltip aria label for adding a reaction */
-  'list-item.context-menu-add-reaction-aria-label': 'Tambahkan reaksi',
+  'list-item.context-menu-add-reaction-aria-label': 'Tambahkan reaction',
   /** The button tooltip content for the add reaction button and mode is upsell */
-  'list-item.context-menu-add-reaction-upsell': 'Tingkatkan untuk menambahkan reaksi',
+  'list-item.context-menu-add-reaction-upsell': 'Tingkatkan untuk menambahkan reaction',
   /** The action menu item for copying a comment link */
   'list-item.copy-link': 'Salin tautan ke komentar',
   /** The action menu item for deleting a comment */
@@ -93,7 +93,7 @@ export default removeUndefinedLocaleResources({
   /** The action menu item for editing a comment and the mode is upsell */
   'list-item.edit-comment-upsell': 'Tingkatkan untuk mengedit komentar',
   /** Aria label for the button that takes you to the field, which wraps a thread/comment */
-  'list-item.go-to-field-button.aria-label': 'Pergi ke bidang',
+  'list-item.go-to-field-button.aria-label': 'Pergi ke field',
   /**
    * The text shown below the author and timestamp of a comment including a link back to the context in which the comment was made.
    * Consists of a document title wrapped in a link, and a word or phrase to indicate that the link refers to a location:
@@ -111,15 +111,15 @@ export default removeUndefinedLocaleResources({
   /** The text shown when the value a comment references has been deleted */
   'list-item.missing-referenced-value-tooltip-content': 'Teks yang dikomentari telah dihapus',
   /** The aria label for the comments menu button to open the actions menu */
-  'list-item.open-menu-aria-label': 'Buka menu aksi komentar',
+  'list-item.open-menu-aria-label': 'Buka menu komentar',
   /** The button text to re-open a resolved comment  */
   'list-item.re-open-resolved': 'Buka kembali',
   /** The button aria label to re-open a comment that is resolved */
   'list-item.re-open-resolved-aria-label': 'Buka kembali',
   /** The button aria label to mark a comment as resolved */
-  'list-item.resolved-tooltip-aria-label': 'Tandai komentar sebagai terselesaikan',
+  'list-item.resolved-tooltip-aria-label': 'Tandai komentar sebagai selesai',
   /** The button text to mark a comment as resolved */
-  'list-item.resolved-tooltip-content': 'Tandai sebagai terselesaikan',
+  'list-item.resolved-tooltip-content': 'Tandai sebagai selesai',
 
   /** The empty state text for open comments */
   'list-status.empty-state-open-text':
@@ -128,9 +128,9 @@ export default removeUndefinedLocaleResources({
   'list-status.empty-state-open-title': 'Belum ada komentar terbuka',
   /** The empty state text for resolved comments */
   'list-status.empty-state-resolved-text':
-    'Komentar yang telah terselesaikan pada dokumen ini akan ditampilkan di sini.',
+    'Komentar yang telah selesai pada dokumen ini akan ditampilkan di sini.',
   /** The empty state title for resolved comments */
-  'list-status.empty-state-resolved-title': 'Belum ada komentar yang terselesaikan',
+  'list-status.empty-state-resolved-title': 'Belum ada komentar yang selesai',
   /** The list status message for error */
   'list-status.error': 'Terjadi kesalahan',
   /** The list status message for loading status */
@@ -145,14 +145,14 @@ export default removeUndefinedLocaleResources({
 
   /** The comments onboarding popover text */
   'onboarding.body':
-    'Anda dapat menambahkan komentar pada setiap bidang dalam dokumen. Mereka akan muncul di sini, dikelompokkan berdasarkan bidang.',
+    'Anda dapat menambahkan komentar pada setiap field dalam dokumen. Mereka akan muncul di sini, dikelompokkan berdasarkan field.',
   /** The comments onboarding dismiss text */
   'onboarding.dismiss': 'Mengerti',
   /** The comments onboarding popover header text */
-  'onboarding.header': 'Bidang dokumen sekarang memiliki komentar',
+  'onboarding.header': 'Field dokumen sekarang memiliki komentar',
 
   /** Tooltip for the button to add a reaction to a comment */
-  'reactions.add-reaction-tooltip': 'Tambahkan reaksi',
+  'reactions.add-reaction-tooltip': 'Tambahkan reaction',
   /** Aria label for the individual reactions you can choose from when reacting to a comment */
   'reactions.react-with-aria-label': 'Bereaksi dengan {{reactionName}}',
   /** When a users' name cannot be resolved, fall back to this name */
@@ -186,10 +186,10 @@ export default removeUndefinedLocaleResources({
   /** Status filter: The full text for describing filtering on open (non-resolved) comments */
   'status-filter.status-open-full': 'Komentar terbuka',
   /** Status filter: The short title describing filtering on resolved comments */
-  'status-filter.status-resolved': 'Terselesaikan',
+  'status-filter.status-resolved': 'Selesai',
   /** Status filter: The full text for describing filtering on resolved comments */
-  'status-filter.status-resolved-full': 'Komentar yang terselesaikan',
+  'status-filter.status-resolved-full': 'Komentar yang selesai',
   /** Status filter: The full text for describing filtering on resolved comments and is upsell mode */
   'status-filter.status-resolved-full-upsell':
-    'Tingkatkan untuk melihat komentar yang terselesaikan',
+    'Tingkatkan untuk melihat komentar yang selesai',
 })

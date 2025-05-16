@@ -9,7 +9,7 @@ export default removeUndefinedLocaleResources({
   'create-link-info-popover.header': 'Pengarangan berbasis ide',
   /** Informational text in Create Link info popover */
   'create-link-info-popover.text':
-    'Tulis secara alami dalam editor yang didukung AI. Konten Anda secara otomatis dipetakan ke bidang Studio saat Anda mengetik.',
+    'Tulis secara alami dalam editor yang didukung AI. Konten anda secara otomatis disambungkan ke field Studio saat Anda mengetik.',
 
   /** Tooltip for Create Link button */
   'create-link-info.tooltip': 'Pelajari lebih lanjut',

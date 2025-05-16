@@ -13,10 +13,10 @@ export default removeUndefinedLocaleResources({
   'action.delete.running.label': 'Menghapus…',
   /** Tooltip when action is disabled because the document is linked to Canvas */
   'action.disabled-by-canvas.tooltip':
-    'Beberapa aksi dokumen dinonaktifkan untuk dokumen yang terhubung ke Canvas',
+    'Beberapa menu dokumen dinonaktifkan untuk dokumen yang terhubung ke Canvas',
   /** Message prompting the user to confirm discarding changes */
   'action.discard-changes.confirm-dialog.confirm-discard-changes':
-    'Apakah Anda yakin ingin membuang semua perubahan sejak terakhir dipublikasikan?',
+    'Apakah anda yakin ingin membuang semua perubahan sejak terakhir dipublikasikan?',
   /** Tooltip when action is disabled because the document has no unpublished changes */
   'action.discard-changes.disabled.no-change':
     'Dokumen ini tidak memiliki perubahan yang belum dipublikasikan',
@@ -30,7 +30,7 @@ export default removeUndefinedLocaleResources({
   'action.duplicate.disabled.not-ready': 'Operasi belum siap',
   /** Tooltip when action is disabled because the document doesn't exist */
   'action.duplicate.disabled.nothing-to-duplicate':
-    'Dokumen ini belum ada sehingga tidak ada yang bisa diduplikasi',
+    'Dokumen ini belum ada sehingga tidak dapat diduplikasikan',
   /** Label for the "Duplicate" document action */
   'action.duplicate.label': 'Duplikasi',
   /** Label for the "Duplicate" document action while the document is being duplicated */

@@ -7,7 +7,7 @@ export default removeUndefinedLocaleResources({
   'action.link-document': 'Tautkan ke Canvas',
   /** The text for the "Link to Canvas" action when the document is not yet resolved. */
   'action.link-document-disabled.initial-value-not-resolved':
-    'Harap tunggu sampai nilai awal dokumen terpecahkan',
+    'Harap tunggu sampai awal dokumen dimuat',
   /** The text for the "Link to Canvas" action when the user doesn't have permissions to link the document to Canvas. */
   'action.link-document-disabled.missing-permissions':
     'Anda tidak memiliki izin untuk menautkan dokumen ini ke Canvas',
@@ -15,7 +15,7 @@ export default removeUndefinedLocaleResources({
   'action.link-document-disabled.not-in-dashboard':
     'Buka dokumen ini di Dashboard untuk menautkan ke Canvas',
   /** The text for the "Link to Canvas" action when the document is a version document. */
-  'action.link-document-disabled.version-document': 'Dokumen versi belum didukung di Canvas',
+  'action.link-document-disabled.version-document': 'Dokumen dengan versi belum didukung di Canvas',
   /** The text for the "Unlink from Canvas" action. */
   'action.unlink-document': 'Putuskan tautan dari Canvas',
 
@@ -30,7 +30,7 @@ export default removeUndefinedLocaleResources({
   'dialog.confirm-document-changes.confirm': 'Terima dan lanjutkan',
   /** The description for the "Confirm document changes" dialog. */
   'dialog.confirm-document-changes.description':
-    'Dokumen ini perlu diperbarui agar kompatibel dengan Canvas.\n Konten yang ada mungkin akan diedit atau dihapus sebagai bagian dari proses ini.',
+    'Dokumen ini perlu diperbarui agar kompatibel dengan Canvas.\n Konten yang ada mungkin akan teredit atau terhapus sebagai bagian dari proses ini.',
   /** The description for the "Confirm document changes" dialog footer. */
   'dialog.confirm-document-changes.footer-description':
     'Anda dapat memutuskan tautan dari Canvas kapan saja',
@@ -48,7 +48,7 @@ export default removeUndefinedLocaleResources({
   'dialog.unlink-from-canvas.cancel': 'Batal',
   /** The text for the "Unlink from Canvas" dialog description. */
   'dialog.unlink-from-canvas.description':
-    'Setelah diputuskan tautannya, dokumen ini akan dapat diedit di sini dan editan masa depan di Canvas tidak akan lagi secara otomatis dipetakan ke dokumen ini.',
+    'Setelah diputuskan tautannya, dokumen ini akan dapat diedit di sini dan editan masa depan di Canvas tidak akan lagi secara otomatis mempengaruhi dokumen ini.',
   /** The text for the "Unlink from Canvas" dialog error message. */
   'dialog.unlink-from-canvas.error': 'Gagal memutuskan tautan dari Canvas',
   /** The text for the "Unlink from Canvas" dialog success message. */
@@ -63,5 +63,5 @@ export default removeUndefinedLocaleResources({
 
   /** The text for the "Navigate to Canvas" dialog error message. */
   'navigate-to-canvas-doc.error.missing-permissions':
-    'Izin yang diperlukan untuk navigasi ke Canvas tidak ada',
+    'Tidak ada izin untuk navigasi ke Canvas',
 })
